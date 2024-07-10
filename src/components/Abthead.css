@@ -1,0 +1,99 @@
+.abt {
+    margin-bottom: 0.1rem;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+    margin-left:  1rem;
+    background: #FFF8DC;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    height: 100vh;
+}
+
+.txt {
+    width: 68%;
+    padding: 2rem 2rem;
+    text-align: justify;
+}
+
+
+
+.txt p {
+    font-size: 1.2rem;
+}
+
+.imag img{
+    border-radius: 6px;
+    padding-right: 1rem;
+}
+
+.txt a {
+    text-decoration: none;
+    background-color: skyblue;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 6px;
+    transition: all 0.2s ease-in-out;
+    position: absolute;
+    margin-top: 1rem;
+  }
+
+  .txt a:hover {
+    background-color: #472915;
+    color: white;
+    font-weight: 600;
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .abt {
+        /* margin-bottom: 0.1rem; */
+        margin-top: 2.5rem;
+        margin-right: 0;
+        margin-left:  0;
+        display: grid;
+        
+        justify-content: space-between;
+        border-radius: 6px;
+        height: auto;   /* Remove fixed height for responsiveness */
+      }
+      
+      .txt {
+        width: 100%;
+        padding-left: 2rem; 
+        text-align: center;
+      }
+      
+      .txt p {
+        font-size: 1rem;
+      }
+      .imag {
+        width: 100%;
+        padding-left: 5rem;
+        margin: 1rem 0;
+      }
+
+      .imag img {
+        height: 300px;
+        
+      }
+      
+      .txt a {
+        text-decoration: none;
+        background-color: skyblue;
+        color: black;
+        font-size: 0.9rem;
+        font-weight: 600;
+        padding: 0.5rem 1rem;
+        border-radius: 6px;
+        transition: all 0.2s ease-in-out;
+        position: relative;
+        margin-top: 0.7rem;
+      }
+  
+  }

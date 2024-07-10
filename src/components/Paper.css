@@ -1,0 +1,49 @@
+.paper{
+    height: 55vh;
+    margin: 0.1rem 1rem;
+    text-align: center;
+    background: #e5ffcc
+}
+
+.pub{
+    padding-top: 10vh;
+    font-size: 2rem;
+}
+
+.lst {
+    width: 100%;
+    padding: 5vh 20%;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.btn {
+    align-items: center;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.4rem;
+    background-color: goldenrod;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+
+  @media screen and (max-width: 768px) {
+    .paper {
+        padding-bottom: 5vh;
+        height: auto;
+        margin: 0.1rem 0;
+    }
+
+    .lst {
+        width: 100%;
+        padding: 5vh 6vh;
+        text-align: start;
+    }
+    
+  }
+

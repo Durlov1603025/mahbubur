@@ -1,0 +1,53 @@
+.edu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.1rem 1rem;
+    background: aliceblue;
+    height: 70vh;
+}
+
+.scl {
+    width: 60%;
+    padding-top: 10vh;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.nm {
+    font-weight: 700;
+}
+
+.ttl{
+    width: 50%;
+    padding-top: 20vh;
+    padding-left: 5rem;
+    font-size: 1.4rem;
+}
+
+@media screen and (max-width: 768px) {
+    .edu {
+        display: grid;
+        margin: 0.1rem 0;
+        justify-content: space-between;
+        height: auto;
+    }
+
+    .ttl{
+        width: 100%;
+        padding-top: 5vh;
+        padding-left: 5rem;
+        font-size: 1.4rem;
+    }
+
+    .scl {
+        width: 80%;
+        padding-top: 5vh;
+        font-size: 1.2rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 500;
+        padding-left: 3rem;
+        padding-bottom: 2rem;
+        /* margin-bottom: 2rem; */
+    }
+}

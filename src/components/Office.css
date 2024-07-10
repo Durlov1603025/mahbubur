@@ -1,0 +1,54 @@
+.office {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.1rem 1rem;
+    background: #E2DFD2;
+    height: 50vh;
+}
+
+.prof {
+    width: 60%;
+    padding-top: 20vh;
+    font-size: 1.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.ofc {
+    font-weight: 700;
+}
+
+.exp{
+    color: #472915;
+    width: 50%;
+    padding-top: 20vh;
+    padding-left: 5rem;
+    font-size: 1.4rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .office {
+        display: grid;
+        justify-content: space-between;
+        height: auto;
+        margin: 0.1rem 0;
+    }
+
+    .exp{
+        width: 100%;
+        padding-top: 7vh;
+        padding-left: 5rem;
+        font-size: 1.4rem;
+    }
+
+    .prof {
+        width: 100%;
+        padding-top: 5vh;
+        font-size: 1.2rem;
+        font-family: 'Times New Roman', Times, serif;
+        padding-left: 3rem;
+        padding-bottom: 2rem;
+        /* margin-bottom: 2rem; */
+    }
+}

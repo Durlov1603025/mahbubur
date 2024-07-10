@@ -1,0 +1,96 @@
+.contain {
+    margin: 0.1rem 1rem;
+    background: azure;
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    padding-bottom: 6rem;
+}
+
+.description {
+    width: 70%;
+    padding-top: 10vh;
+    padding-right: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.author{
+    font-size: 1.2rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.abstract {
+    text-align: justify;
+    font-size: 1.2rem;
+    padding-top: 0.3rem;
+}
+
+.down {
+    text-decoration: none;
+    background-color: coral;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 6px;
+    transition: all 0.2s ease-in-out;
+    position: absolute;
+    margin-top: 1rem;
+  }
+
+  .down:hover {
+    background-color: darkslategrey;
+    color: white;
+    font-weight: 600;
+  }
+
+  .type{
+    width: 30%;
+    padding-top: 22vh;
+    padding-left: 6rem;
+    font-size: 1.4rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contain {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr;
+        height: auto;
+        margin: 0.1rem 0;
+        padding-bottom: 3rem;
+    }
+
+    .type {
+        width: 100%;
+        text-align: center;
+        padding-top: 6vh;
+        padding-left: 0;
+        /* font-size: 1.3rem; */
+    }
+
+    .description {
+        width: 100%;
+        padding: 4rem 2rem;
+    }
+
+    .description h2 {
+        font-size: 1.25rem;
+    }
+
+    .abstract {
+        font-size: 1rem;
+    }
+
+    .author {
+        font-size: 1rem;
+    }
+
+    .down {
+        font-size: 1rem;
+    }
+}
