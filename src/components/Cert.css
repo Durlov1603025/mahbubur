@@ -1,0 +1,40 @@
+.cert {
+    height: auto;
+    margin: 0.1rem 1rem;
+    background: whitesmoke;
+}
+
+.hd {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 8vh;
+}
+
+.cont {
+    width: 100%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 25%;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 768px) {
+    .cert {
+        padding-bottom: 5vh;
+        margin: 0.1rem 0;
+    }
+
+    .cont {
+        width: 100%;
+        padding: 4rem;
+        font-size: 1.3rem;
+    }
+
+    .cont li {
+        padding-bottom: 1rem;
+    }
+    
+  }
